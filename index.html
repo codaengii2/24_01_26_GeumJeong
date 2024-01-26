@@ -1,0 +1,1088 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>금정구청</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="icon" href="img/favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/pc.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="js/code.jquery.com_jquery-3.7.1.min.js"></script>
+    <script src="js/mainFade.js"></script>
+    <script src="js/eventfade.js"></script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="container">
+          <div class="top_header flex">
+            <ul class="page_tab flex">
+              <li><a href="index.html">금정구청</a></li>
+              <li>
+                <a
+                  href="https://www.geumjeong.go.kr/tour/index.geumj"
+                  target="_blank"
+                  >문화관광</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.geumjeong.go.kr/health/index.geumj"
+                  target="_blank"
+                  >보건소</a
+                >
+              </li>
+              <li>
+                <a
+                  href="https://www.geumjeong.go.kr/index.geumj?contentsSid=6366"
+                  target="_blank"
+                  >도서관</a
+                >
+              </li>
+              <li>
+                <a href="https://art.geumjeong.go.kr/main.asp">문화회관</a>
+              </li>
+              <li>
+                <a href="https://council.geumjeong.go.kr/index.geumj"
+                  >금정구의회</a
+                >
+              </li>
+            </ul>
+            <label class="lang flex">
+              <i class="fa-solid fa-earth-asia"></i>
+              <select name="language" id="kor">
+                <option value="korean medium">KOR</option>
+                <option value="english">ENG</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="middle_header flex">
+            <div class="logo_wrap flex">
+              <a href="#"
+                ><img src="img/smile_logo.svg" alt="스마일 금정구 로고"
+              /></a>
+              <a href="#"><img src="img/logo.svg" alt="금정구 부산 로고" /></a>
+            </div>
+            <div class="search_wrap flex">
+              <form>
+                <input
+                  type="search"
+                  id="search"
+                  placeholder="    무엇을 도와드릴까요?"
+                />
+              </form>
+
+              <div class="keyborad">
+                <i class="fa-solid fa-keyboard"></i>
+              </div>
+              <button id="search_icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
+            </div>
+            <div class="weather flex">
+              <div class="sun"></div>
+              <div class="tem">
+                <div class="tem_num bold">16℃</div>
+                <div class="tem_date light">10.28(토)</div>
+              </div>
+              <div class="dust">
+                <div class="good_dust flex light">
+                  <p>미세먼지</p>
+                  &nbsp;
+                  <p>좋음</p>
+                  <div class="dust_round"></div>
+                </div>
+                <div class="bad_dust flex light">
+                  <p>초미세먼지</p>
+                  &nbsp;
+                  <p>보통</p>
+                  <div class="dust_round"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="menu_header">
+            <ul class="menu_wrap flex medium">
+              <li><a href="#">민원안내</a></li>
+              <li><a href="#">소식알림</a></li>
+              <li><a href="#">행정정보</a></li>
+              <li><a href="#">금정소개</a></li>
+              <li><a href="#">분야별정보</a></li>
+            </ul>
+            <div class="all_menu flex">
+              <p>전체메뉴보기</p>
+              <i class="fa-solid fa-bars"></i>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!-- header end -->
+
+      <section class="sec_1">
+        <div class="container flex">
+          <div class="quick_title_wrap">
+            <div class="quick_menu_title black">
+              <h3>GEUMJWONG</h3>
+              <h3>QUICK <span class="light">LINK</span></h3>
+            </div>
+            <div class="quick_menu_sub">
+              <p>자주 찾는 서비스를</p>
+              <p>안내해드립니다.</p>
+            </div>
+          </div>
+          <ul class="quick_menu_wrap flex medium">
+            <li>
+              <a href="#"><img src="img/quick_i_1.png" alt="" /></a>
+              <div class="quick_main">
+                <a href="#">정부 24</a>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="img/quick_i_2.png" alt="" /></a>
+              <div class="quick_main">
+                <a href="#">국세청<br /><span>(홈텍스)</span></a>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="img/quick_i_3.png" alt="" /></a>
+              <div class="quick_main">
+                <a href="#">행정공고/고시</a>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="img/quick_i_4.png" alt="" /></a>
+              <div class="quick_main">
+                <a href="#">전자민원창구</a>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="img/quick_i_5.png" alt="" /></a>
+              <div class="quick_main">
+                <a href="#">지방세</a>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="img/quick_i_6.png" alt="" /></a>
+              <div class="quick_main">
+                <a href="#">여권발급</a>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="img/quick_i_7.png" alt="" /></a>
+              <div class="quick_main">
+                <a href="#">주차장단속</a>
+              </div>
+            </li>
+            <li>
+              <a href="#"><img src="img/quick_i_8.png" alt="" /></a>
+              <div class="quick_main">
+                <a href="#">주정차단속<br /><span>문자알림서비스</span></a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- section_1 end -->
+
+      <section class="sec_2 flex">
+        <div class="container flex">
+          <div class="main_wrap">
+            <ul class="main_img_wrap flex">
+              <li>
+                <a href="javascript: return false;">
+                  <img src="img/main1.jpg" alt="" />
+                </a>
+              </li>
+              <li>
+                <a href="javascript: return false;"
+                  ><img src="img/main2.jpg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript: return false;"
+                  ><img src="img/main3.jpg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript: return false;"
+                  ><img src="img/main4.jpg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript: return false;"
+                  ><img src="img/main5.jpg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript: return false;"
+                  ><img src="img/main6.jpg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript: return false;"
+                  ><img src="img/main7.jpg" alt=""
+                /></a>
+              </li>
+              <li>
+                <a href="javascript: return false;"
+                  ><img src="img/main8.jpg" alt=""
+                /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="alderman">
+            <div class="alder_top">
+              <div class="alder_title_wrap">
+                <p class="medium">금정구청장 김재윤입니다</p>
+                <h3 class="bold">소통구청장실</h3>
+                <div class="promise_wrap medium">
+                  <a href="#" class="flex">
+                    <p>공약사항</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                  <a
+                    href="https://www.geumjeong.go.kr/mayor/index.geumj"
+                    class="flex"
+                  >
+                    <p>구청장실 바로가기</p>
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul class="alder_bottom flex">
+              <li>
+                <a
+                  href="https://www.geumjeong.go.kr/board/list.geumj?boardId=BBS_0000146&menuCd=DOM_000000127003003000&contentsSid=4493&cpath="
+                >
+                  <img src="img/employee.png" alt="" />
+                  <p>직원업무안내</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000127003001001"
+                >
+                  <img src="img/government.png" alt="" />
+                  <p>청사안내</p>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000127003008000"
+                >
+                  <img src="img/location.png" alt="" />
+                  <p>찾아오시는길</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- section_2 end -->
+
+      <section class="sec_3">
+        <div class="container flex">
+          <div class="news_wrap">
+            <div class="news_title_wrap flex">
+              <div class="title news_t black">
+                금정구<span class="gray">소식</span>
+              </div>
+              <div class="sub news_s light">
+                금정구의 다양한 소식을 전해드립니다.
+              </div>
+            </div>
+            <input
+              type="radio"
+              id="news_1"
+              name="news"
+              value="radiovalue1"
+              checked
+            />
+            <input type="radio" id="news_2" name="news" value="radiovalue2" />
+            <input type="radio" id="news_3" name="news" value="radiovalue3" />
+            <input type="radio" id="news_4" name="news" value="radiovalue4" />
+            <input type="radio" id="plus" />
+            <div class="new_label_wrap flex medium">
+              <label for="news_1" id="news_menu_1">공지사항</label>
+              <label for="news_2" id="news_menu_2">고시공고</label>
+              <label for="news_3" id="news_menu_3">입법예고</label>
+              <label for="news_4" id="news_menu_4">입찰정보</label>
+              <label for="plus" id="news_plus">
+                <a
+                  href="https://www.geumjeong.go.kr/board/list.geumj?boardId=BBS_0000004&menuCd=DOM_000000124002001000&contentsSid=3855&cpath="
+                >
+                  +
+                </a>
+              </label>
+            </div>
+            <ul class="news_menu_wrap new_1_menu flex">
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    청년 with 창문(청년창업문화촌) 테라스 참여자 모집
+                  </h3>
+                  <p class="n_menu_sub">
+                    금정구 청년창업문화촌에서 가드닝 클래스, 칠링 테라피 등을
+                    운영하오니 많은 관심과 참여 부탁드립니다.
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">관광진흥과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.23</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    2023 공유경제 사업화 아이디어 공모전
+                  </h3>
+                  <p class="n_menu_sub">
+                    참가방법: 공고문 내 양식에 의한 사업계획서 제출<br />
+                    모집분야: 공간, 생활, 경험, 재능 등 분야의 공유경제 사업화
+                    아이디어
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">경제진흥과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.23</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    디지털 조력자 양성교육 교육생 모집
+                  </h3>
+                  <p class="n_menu_sub">
+                    (예비)사회복지·요양보호종사자를 대상으로 디지털 역량 강화
+                    교육과 디지털 교수법 교육을 무료로 지원받을 수 있는
+                    프로그램입니다.
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">재무과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.19</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+
+            <ul class="news_menu_wrap new_2_menu flex">
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    금정구 학교 밖 청소년 지원센터 지정 운영기관 공개모집 공고
+                  </h3>
+                  <p class="n_menu_sub">
+                    금정구 청년창업문화촌에서 가드닝 클래스, 칠링 테라피 등을
+                    운영하오니 많은 관심과 참여 부탁드립니다.
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">가족정책과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.27</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    주차과징팀 기간제근로자 채용 최종 합격자 공고
+                  </h3>
+                  <p class="n_menu_sub">
+                    참가방법: 공고문 내 양식에 의한 사업계획서 제출<br />
+                    모집분야: 공간, 생활, 경험, 재능 등 분야의 공유경제 사업화
+                    아이디어
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">교통행정과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.27</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    디지털 조력자 양성교육 교육생 모집
+                  </h3>
+                  <p class="n_menu_sub">
+                    (예비)사회복지·요양보호종사자를 대상으로 디지털 역량 강화
+                    교육과 디지털 교수법 교육을 무료로 지원받을 수 있는
+                    프로그램입니다.
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">재무과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.19</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <ul class="news_menu_wrap new_3_menu flex">
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    청년 with 창문(청년창업문화촌) 테라스 참여자 모집
+                  </h3>
+                  <p class="n_menu_sub">
+                    금정구 청년창업문화촌에서 가드닝 클래스, 칠링 테라피 등을
+                    운영하오니 많은 관심과 참여 부탁드립니다.
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">관광진흥과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.23</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    2023 공유경제 사업화 아이디어 공모전
+                  </h3>
+                  <p class="n_menu_sub">
+                    참가방법: 공고문 내 양식에 의한 사업계획서 제출<br />
+                    모집분야: 공간, 생활, 경험, 재능 등 분야의 공유경제 사업화
+                    아이디어
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">경제진흥과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.23</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    디지털 조력자 양성교육 교육생 모집
+                  </h3>
+                  <p class="n_menu_sub">
+                    (예비)사회복지·요양보호종사자를 대상으로 디지털 역량 강화
+                    교육과 디지털 교수법 교육을 무료로 지원받을 수 있는
+                    프로그램입니다.
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">재무과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.19</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+            <ul class="news_menu_wrap new_4_menu flex">
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    청년 with 창문(청년창업문화촌) 테라스 참여자 모집
+                  </h3>
+                  <p class="n_menu_sub">
+                    금정구 청년창업문화촌에서 가드닝 클래스, 칠링 테라피 등을
+                    운영하오니 많은 관심과 참여 부탁드립니다.
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">관광진흥과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.23</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    2023 공유경제 사업화 아이디어 공모전
+                  </h3>
+                  <p class="n_menu_sub">
+                    참가방법: 공고문 내 양식에 의한 사업계획서 제출<br />
+                    모집분야: 공간, 생활, 경험, 재능 등 분야의 공유경제 사업화
+                    아이디어
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">경제진흥과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.23</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <h3 class="n_menu_title">
+                    디지털 조력자 양성교육 교육생 모집
+                  </h3>
+                  <p class="n_menu_sub">
+                    (예비)사회복지·요양보호종사자를 대상으로 디지털 역량 강화
+                    교육과 디지털 교수법 교육을 무료로 지원받을 수 있는
+                    프로그램입니다.
+                  </p>
+                  <div class="n_menu_date flex">
+                    <p class="medium">재무과</p>
+                    <p class="flex">
+                      <i class="fa-regular fa-calendar"></i>
+                      <span>2023.10.19</span>
+                    </p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="event_wrap">
+            <div class="event_top flex">
+              <div class="title news_t black">
+                소식알림창<span class="gray">입니다</span>
+              </div>
+              <div class="page_wrap flex">
+                <div class="page light flex">
+                  <p>01</p>
+                  &nbsp; / &nbsp;
+                  <p></p>
+                </div>
+                <div class="stop flex">
+                  <div class="event_left_arrow">
+                    <i class="fa-solid fa-chevron-left"></i>
+                  </div>
+                  <div class="stop_btn"><i class="fa-solid fa-pause"></i></div>
+                  <div class="event_right_arrow">
+                    <i class="fa-solid fa-chevron-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="event_bottom">
+              <ul class="event_img_wrap flex">
+                <li>
+                  <a href="javascript: return false;"
+                    ><img src="img/event1.jpg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript: return false;"
+                    ><img src="img/event2.jpg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript: return false;"
+                    ><img src="img/event3.jpg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript: return false;"
+                    ><img src="img/event4.jpg" alt=""
+                  /></a>
+                </li>
+                <li>
+                  <a href="javascript: return false;"
+                    ><img src="img/event5.png" alt=""
+                  /></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section_3 end -->
+
+      <section class="sec_4">
+        <div class="container flex">
+          <div class="fun_menu">
+            <div class="title news_t black">
+              금정은&nbsp;<span class="gray">즐겁다!</span>
+            </div>
+            <div class="sub news_s light">
+              떠나요 금정으로! 금정구만의 색다른 매력에 푹 빠져보세요
+            </div>
+          </div>
+          <div class="place_input_wrap flex">
+            <input type="radio" name="fes" id="place" checked />
+            <input type="radio" name="fes" id="festival" />
+            <div class="fun_menu_label flex semi">
+              <label for="place" id="place_label">
+                <i class="fa-solid fa-tree"></i>
+                10대명소
+              </label>
+              <label for="festival" id="festival_label">
+                <i class="fa-brands fa-gratipay"></i>
+                축제한마당
+              </label>
+            </div>
+            <div class="fun_list swiper mySwiper_fun">
+              <ul class="fun_img_wrap flex swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun1.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">금정산</h3>
+                      <p>18,845m의 국내 최대 금정산성길</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun2.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">범어사</h3>
+                      <p>천년 고찰 불교의 신성함이 깃든 곳</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun3.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">회동호</h3>
+                      <p>일상 속 쉼표를 찍다, 생태힐링 1번지</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun4.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">서동미로시장</h3>
+                      <p>이쪽 골목에 인심, 저쪽 골목에 예술</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun5.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">스포원파크</h3>
+                      <p>금정구 최대규모 생활놀이 시설&middot;공원</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun6.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">한국이슬람교부산성원</h3>
+                      <p>부산 유일의 이슬람 문화 공간</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun7.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">요산김정한문학관 및 생가</h3>
+                      <p>요산 김정한의 삶이 깃든 곳</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun8.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">오륜대 한국순교자박물관</h3>
+                      <p>가톨릭 순교자의 신념이 깃든 곳</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun9.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">금정산성마을</h3>
+                      <p>공기 좋고 물 맑은 수려한 자연환경</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun10.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">부산대 젊음의 거리</h3>
+                      <p>청춘의 열기로 가득한 곳</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="fes_list swiper mySwiper_fes">
+              <ul class="fun_img_wrap flex swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fes1.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">금정산성축제</h3>
+                      <p>금정산성 역사문화축제</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fes2.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">부산대 젊음의 거리 문화공연</h3>
+                      <p>젊음의 산실인 대학로 문화공연</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun3.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">회동호</h3>
+                      <p>일상 속 쉼표를 찍다, 생태힐링 1번지</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun4.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">서동미로시장</h3>
+                      <p>이쪽 골목에 인심, 저쪽 골목에 예술</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun5.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">스포원파크</h3>
+                      <p>금정구 최대규모 생활놀이 시설&middot;공원</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun6.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">한국이슬람교부산성원</h3>
+                      <p>부산 유일의 이슬람 문화 공간</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun7.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">요산김정한문학관 및 생가</h3>
+                      <p>요산 김정한의 삶이 깃든 곳</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun8.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">오륜대 한국순교자박물관</h3>
+                      <p>가톨릭 순교자의 신념이 깃든 곳</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun9.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">금정산성마을</h3>
+                      <p>공기 좋고 물 맑은 수려한 자연환경</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <img src="img/fun10.jpg" alt="" />
+                    <div class="fun_img_bottom">
+                      <h3 class="semi">부산대 젊음의 거리</h3>
+                      <p>청춘의 열기로 가득한 곳</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="arrow_btn flex">
+            <div class="left"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="right"><i class="fa-solid fa-chevron-right"></i></div>
+          </div>
+        </div>
+      </section>
+      <!-- section_4 end -->
+
+      <section class="sec_5">
+        <div class="container flex">
+          <div class="media_wrap">
+            <div class="media_title flex">
+              <div class="title news_t black">
+                금정<span class="gray">미디어</span>
+              </div>
+              <div class="sub news_s light">
+                금정의 이곳저곳 볼거리, 즐길거리를 시민들에게 알려드립니다.
+              </div>
+            </div>
+            <div class="meida_arrow_wrap flex">
+              <div class="media_left_arrow left">
+                <i class="fa-solid fa-chevron-left"></i>
+              </div>
+              <div class="media_right_arrow right">
+                <i class="fa-solid fa-chevron-right"></i>
+              </div>
+            </div>
+            <div class="media_list swiper mySwiper_media">
+              <ul class="media_img_wrap flex swiper-wrapper">
+                <li class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/media1.jpg" alt="" />
+                    </div>
+                    <div class="media_menu_title">
+                      <p>2023년 10월 인싸이드금정 금정구 꼬마농부</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/media2.jpg" alt="" />
+                    </div>
+                    <div class="media_menu_title">
+                      <p>
+                        #누리교 #황토숲길 #서동미로 시장 #부산대 #금정산성 #스포
+                        원파크
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/media3.jpg" alt="" />
+                    </div>
+                    <div class="media_menu_title">
+                      <p>릴레이 소통행정, '예비엄마' 소통 간담회</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/media4.jpg" alt="" />
+                    </div>
+                    <div class="media_menu_title">
+                      <p>노인일자리 및 사회활동지원사업 안전 교육</p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/media5.jpg" alt="" />
+                    </div>
+                    <div class="media_menu_title">
+                      <p>
+                        2023년 금정구 장애인복지증진대회 '사랑과 보은 나눔 큰
+                        잔치'
+                      </p>
+                    </div>
+                  </a>
+                </li>
+                <li class="swiper-slide">
+                  <a href="#">
+                    <div class="img_box">
+                      <img src="img/media6.jpg" alt="" />
+                    </div>
+                    <div class="media_menu_title">
+                      <p>사회적경제 금정마켓</p>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="acc_wrap">
+            <div class="subscribe flex">
+              <div class="subs_title_wrap">
+                <div class="subs_date">
+                  <p>2023 <span class="bold">10월호</span></p>
+                </div>
+                <div class="subs_title">
+                  <h3 class="black">금정소식</h3>
+                  <p class="light">매월 출간되는 금정소식을 만나보세요!</p>
+                </div>
+                <div class="subs_btn_wrap flex">
+                  <a
+                    href="https://www.geumjeong.go.kr/board/write.geumj?boardId=gudok01&menuCd=DOM_000000127006001003&contentsSid=4523&cpath="
+                    >구독신청</a
+                  >
+                  <a
+                    href="https://www.geumjeong.go.kr/board/list.geumj?boardId=BBS_0000083&menuCd=DOM_000000123001000000&contentsSid=3167&cpath="
+                    >전체보기</a
+                  >
+                </div>
+              </div>
+              <div class="subs_img"><img src="img/subs.jpg" alt="" /></div>
+            </div>
+            <div class="sns flex">
+              <h3 class="black">SNS <span class="medium">바로가기</span></h3>
+              <ul class="sns_icon_wrap flex">
+                <li>
+                  <a href="https://www.facebook.com/geumjeonggu/">
+                    <img src="img/m_sns_icon01.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://twitter.com/i/flow/login?redirect_after_login=%2Fgeumjeonggu"
+                  >
+                    <img src="img/m_sns_icon02.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://blog.naver.com/geumjeonggu">
+                    <img src="img/m_sns_icon03.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/smile_geumjeong/">
+                    <img src="img/m_sns_icon04.png" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/channel/UCShWZtIBep5wwGmxYhD15TQ"
+                  >
+                    <img src="img/m_sns_icon05.png" alt="" />
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- section_5 end -->
+
+      <footer>
+        <div class="container">
+          <div class="f_top flex">
+            <div class="select">
+              <select name="center" id="center">
+                <option class="flex">행정복지센터<span>+</span></option>
+              </select>
+            </div>
+            <div class="select">
+              <select name="city" id="city">
+                <option class="flex">시구군<span>+</span></option>
+              </select>
+            </div>
+            <div class="select">
+              <select name="agency" id="agency">
+                <option class="flex">유관기관<span>+</span></option>
+              </select>
+            </div>
+            <div class="select">
+              <select name="banner" id="banner">
+                <option class="flex">배너광장<span>+</span></option>
+              </select>
+            </div>
+          </div>
+          <div class="f_bottom flex">
+            <div class="f_acc">
+              <ul class="f_menu flex">
+                <li class="semi">
+                  <a
+                    href="https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000138003001000"
+                    >개인정보처리방침</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000138002000000"
+                    >저작권정책</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000138006000000"
+                    >이메일무단수집거부</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://council.geumjeong.go.kr/index.geumj?menuCd=DOM_000000714008000000"
+                    >전화번호안내</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.geumjeong.go.kr/index.geumj?menuCd=DOM_000000127003008000"
+                    >찾아오시는길</a
+                  >
+                </li>
+              </ul>
+              <div class="plus flex">
+                <p>
+                  (46274) 부산광역시 금정구 중앙대로 1777(부곡동) Tel : 051)
+                  519-4000 Fax : 051) 519-4444
+                </p>
+              </div>
+              <div class="copy">
+                <p>
+                  COPYRIGHT&copy; 2023 GEUMJEONG-GU OFFICE. ALL RIGHTS RESERVED.
+                </p>
+              </div>
+            </div>
+            <div class="f_logo flex">
+              <img src="img/f_logo1.png" alt="" />
+              <img src="img/f_logo2.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!-- footer end -->
+
+      <div class="top_btn">
+        <a href="index.html">
+          <i class="fa-solid fa-arrow-up"></i>
+          <p>TOP</p>
+        </a>
+      </div>
+      <!-- top_btn end -->
+    </div>
+    <script src="js/form.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="js/fun.js"></script>
+    <script src="js/media.js"></script>
+    <script src="js/fes.js"></script>
+  </body>
+</html>
